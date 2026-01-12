@@ -1,3 +1,5 @@
+'use client';
+
 import { Casino } from '../data/casinos';
 import { Star } from 'lucide-react';
 import { logos } from './CasinoLogos';
