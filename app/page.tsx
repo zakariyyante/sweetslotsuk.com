@@ -1,42 +1,31 @@
 import CasinoCard from './components/CasinoCard';
 import Header from './components/Header';
 import Logo from './components/Logo';
+import MobileCasinoModal from './components/MobileCasinoModal';
 import { casinos } from './data/casinos';
-import { Shield, Clock, Award } from 'lucide-react';
 
 export default function Home() {
+  // Filter mobile casinos for the modal
+  const mobileCasinos = casinos.filter(casino => casino.isMobile === true);
+  // Filter non-mobile casinos for the main page
+  const regularCasinos = casinos.filter(casino => !casino.isMobile);
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-purple-950 to-slate-950">
+      {/* Mobile Casino Modal - Shows when gclid is present */}
+      <MobileCasinoModal mobileCasinos={mobileCasinos} />
+      
       {/* Header */}
       <Header />
 
       {/* Hero Section - Compact for Mobile */}
       <section className="container mx-auto px-4 py-4 sm:py-8 lg:py-16 text-center">
         <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-2 sm:mb-4 lg:mb-6">
-          10 Best Online UK Casino Sites 2025
+          Best Online UK Casino Sites 2026
         </h2>
-        <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-2 sm:mb-3">
+        <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-4 sm:mb-6 lg:mb-12">
           Compare The Best Online Casino UK Sites
         </p>
-        <p className="text-sm sm:text-base lg:text-lg text-gray-400 mb-4 sm:mb-6 lg:mb-12">
-          Choose from the best online casinos UK has to offer
-        </p>
-
-        {/* Features - Compact on Mobile */}
-        <div className="grid grid-cols-3 gap-2 sm:gap-4 lg:gap-8 max-w-4xl mx-auto mb-4 sm:mb-6 lg:mb-12">
-          <div className="flex flex-col items-center gap-1 sm:gap-2 text-white">
-            <Shield className="w-6 h-6 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-emerald-400" />
-            <h3 className="font-semibold text-xs sm:text-base lg:text-lg">UK Licensed</h3>
-          </div>
-          <div className="flex flex-col items-center gap-1 sm:gap-2 text-white">
-            <Award className="w-6 h-6 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-emerald-400" />
-            <h3 className="font-semibold text-xs sm:text-base lg:text-lg">Secure & Trusted</h3>
-          </div>
-          <div className="flex flex-col items-center gap-1 sm:gap-2 text-white">
-            <Clock className="w-6 h-6 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-emerald-400" />
-            <h3 className="font-semibold text-xs sm:text-base lg:text-lg">Fast Withdrawals</h3>
-          </div>
-        </div>
       </section>
 
       {/* Main Content */}
@@ -49,7 +38,7 @@ export default function Home() {
 
         {/* Casino Card */}
         <div className="space-y-3 sm:space-y-4 lg:space-y-6 max-w-6xl mx-auto">
-          {casinos.map((casino) => (
+          {regularCasinos.map((casino) => (
             <CasinoCard key={casino.id} casino={casino} />
           ))}
         </div>
@@ -246,7 +235,7 @@ export default function Home() {
 
           <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center mt-6">
             <p className="text-gray-400 text-xs sm:text-sm">
-              © 2025 5TopCasinosUK. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 5TopCasinosUK. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
           </div>
         </div>
