@@ -37,20 +37,20 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://any-site1.com/YTpqyz6h",
     isMobile: true
   },
-  {
-    name: "GoldenGenie",
-    logo: "/goldengenie.png",
-    bonus: "400% up to 2000€ + 100 FS",
-    url: "https://any-site1.com/jsYjtc3w",
-    isMobile: true
-  },
-  {
-    name: "Astrozino",
-    logo: "/astrozino.webp",
-    bonus: "200% up to €1.500 + 100 FS",
-    url: "https://any-site1.com/bKKnfqLP",
-    isMobile: true
-  },
+  // {
+  //   name: "GoldenGenie",
+  //   logo: "/goldengenie.png",
+  //   bonus: "400% up to 2000€ + 100 FS",
+  //   url: "https://any-site1.com/jsYjtc3w",
+  //   isMobile: true
+  // },
+  // {
+  //   name: "Astrozino",
+  //   logo: "/astrozino.webp",
+  //   bonus: "200% up to €1.500 + 100 FS",
+  //   url: "https://any-site1.com/bKKnfqLP",
+  //   isMobile: true
+  // },
 
   {
     name: "Agent No Wager",
@@ -67,17 +67,17 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "Lucky Mister",
-    logo: "/luckymister.svg",
-    bonus: "500% + 500 FS",
-    url: "https://any-site1.com/czmt7rX8",
-    isMobile: true
-  },
-  {
     name: "VegasHero",
     logo: "/VegasHero.png",
     bonus: "300% up to €500 + 300 FS",
     url: "https://any-site1.com/sF24tnhr",
+    isMobile: true
+  },
+  {
+    name: "Lucky Mister",
+    logo: "/luckymister.svg",
+    bonus: "500% + 500 FS",
+    url: "https://any-site1.com/czmt7rX8",
     isMobile: true
   },
   {
