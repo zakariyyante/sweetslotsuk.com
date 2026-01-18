@@ -45,6 +45,13 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "350% up to £680 + 200 FS",
+    url: "https://any-site1.com/hhbHzRbC",
+    isMobile: true
+  },
+  {
     name: "SlotsCharm",
     logo: "/slotscharm.svg",
     bonus: "375% + 300 FS",
@@ -70,13 +77,6 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/goldenmister.svg",
     bonus: "925% to your first deposits!",
     url: "https://any-site1.com/3pJCKVKr",
-    isMobile: true
-  },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FS",
-    url: "https://any-site1.com/hhbHzRbC",
     isMobile: true
   },
 
