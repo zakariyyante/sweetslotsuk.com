@@ -101,7 +101,6 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "100% Bonus up to £50 + 50 Real Money Free Spins",
     url: "https://www.voodoocasino.com",
     isMobile: true
-
   },
   {
     name: "Pub Casino",
@@ -109,7 +108,6 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "Welcome Bonus Get 100% Up To £100",
     url: "https://www.pubcasino.com",
     isMobile: true
-
   },
   {
     name: "Voodoo Dreams",
@@ -178,7 +176,7 @@ export const casinos: Casino[] = casinosRawData.map((casino, index) => {
   const rating = parseFloat((9.9 - index * 0.1).toFixed(1));
   
   return {
-    id: generateIdFromName(casino.name),
+    id: generateIdFromName(casino.name) + index, // Include index to ensure uniqueness
     name: casino.name,
     logo: casino.logo,
     rating: rating,

@@ -17,11 +17,12 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
     const urlParams = new URLSearchParams(window.location.search);
     const gclid = urlParams.get('gclid');
     
-    if (gclid) {
+    // Only open modal if gclid exists AND there are mobile casinos to show
+    if (gclid && mobileCasinos.length > 0) {
       setGclidValue(gclid);
       setIsOpen(true);
     }
-  }, []);
+  }, [mobileCasinos]);
 
   // Update casino URLs with actual gclid value
   const updatedCasinos = useMemo(() => {

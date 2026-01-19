@@ -2,8 +2,8 @@ import Header from '../components/Header';
 import Logo from '../components/Logo';
 
 export const metadata = {
-  title: "Terms of Service - 5TopCasinosUK",
-  description: "Terms of Service for 5TopCasinosUK. Read our terms and conditions for using our casino comparison website.",
+  title: "Terms of Service - Casino Top Choices",
+  description: "Terms of Service for Casino Top Choices. Read our terms and conditions for using our casino comparison website.",
 };
 
 export default function TermsOfService() {
@@ -25,7 +25,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using 5topcasinosuk.com (the "Website" or "Service"), you accept and agree 
+                By accessing and using casinotopchoices.org (the "Website" or "Service"), you accept and agree 
                 to be bound by the terms and provision of this agreement. If you do not agree to abide by the 
                 above, please do not use this Service.
               </p>
@@ -34,7 +34,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Description of Service</h2>
               <p>
-                5TopCasinosUK is an information and comparison website that provides reviews, ratings, and 
+                Casino Top Choices is an information and comparison website that provides reviews, ratings, and 
                 information about online casino operators. We are an independent comparison service and do not 
                 operate any gambling services ourselves.
               </p>
@@ -115,7 +115,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Limitation of Liability</h2>
               <p>
-                To the maximum extent permitted by applicable law, 5TopCasinosUK and its owners, employees, 
+                To the maximum extent permitted by applicable law, Casino Top Choices and its owners, employees, 
                 and affiliates shall not be liable for any indirect, incidental, special, consequential, or 
                 punitive damages, including without limitation, loss of profits, data, use, goodwill, or other 
                 intangible losses, resulting from:
@@ -162,7 +162,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">9. Intellectual Property</h2>
               <p>
-                The Service and its original content, features, and functionality are owned by 5TopCasinosUK 
+                The Service and its original content, features, and functionality are owned by Casino Top Choices 
                 and are protected by international copyright, trademark, patent, trade secret, and other 
                 intellectual property laws.
               </p>
@@ -176,7 +176,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Affiliate Disclosure</h2>
               <p>
-                5TopCasinosUK may receive compensation from casino operators when users click on links or 
+                Casino Top Choices may receive compensation from casino operators when users click on links or 
                 sign up through our Service. This compensation helps us maintain and improve our Service.
               </p>
               <p className="mt-3">
@@ -217,8 +217,8 @@ export default function TermsOfService() {
                 If you have any questions about these Terms of Service, please contact us:
               </p>
               <div className="mt-3 bg-slate-800/50 rounded p-4 border border-purple-500/20">
-                <p className="font-semibold text-white">5TopCasinosUK</p>
-                <p>Website: <a href="https://5topcasinosuk.com" className="text-purple-400 hover:text-purple-300 underline">5topcasinosuk.com</a></p>
+                <p className="font-semibold text-white">Casino Top Choices</p>
+                <p>Website: <a href="https://www.casinotopchoices.org" className="text-purple-400 hover:text-purple-300 underline">casinotopchoices.org</a></p>
                 <p>Email: Please use our contact form on the website</p>
               </div>
             </section>
@@ -242,7 +242,7 @@ export default function TermsOfService() {
           </div>
           <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center">
             <p className="text-gray-400 text-xs sm:text-sm">
-              © 2025 5TopCasinosUK. For educational purposes only. 18+ only. Please gamble responsibly.
+              © 2026 casinotopchoices.org. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
             <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
               <a href="/" className="text-purple-400 hover:text-purple-300">Home</a>
