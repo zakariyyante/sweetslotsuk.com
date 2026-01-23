@@ -142,8 +142,8 @@ export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
         }}
         className="bg-[#FF4500] block w-full bg-gradient-to-r  text-white font-bold py-4 px-6 rounded-2xl text-center text-base sm:text-lg uppercase shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
       >
-        {gclid ? "Claim Bonus": "Play Now"}
-
+        {/*{gclid ? "Claim Bonus": "Play Now"}*/}
+        Check Now
         <ArrowRight className="w-5 h-5" />
       </a>
       {gclid &&  <div className="mt-5 flex items-center justify-center gap-6 text-white/80 text-sm font-semibold">
