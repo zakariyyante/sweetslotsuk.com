@@ -31,11 +31,11 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badge
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "LuckyTwice",
-    logo: "/luckytwice.svg",
-    bonus: "100% up to £500 + 250 FREE SPINS",
-    url: "https://any-site1.com/pjskyjLq",
-    isMobile:true
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "350% up to £680 + 200 FREE SPINS",
+    url: "https://any-site1.com/hhbHzRbC",
+    isMobile: true
   },
   {
     name: "RollySpin",
@@ -44,18 +44,19 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://any-site1.com/znYjBPcw",
     isMobile: true
   },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://any-site1.com/hhbHzRbC",
-    isMobile: true
-  },
+
   {
     name: "HarryCasino",
     logo: "/harry.svg",
     bonus: "£1000 BONUS + 100 Free Spins",
     url: "https://any-site1.com/mSFVwGrp",
+    isMobile:true
+  },
+  {
+    name: "LuckyTwice",
+    logo: "/luckytwice.svg",
+    bonus: "100% up to £500 + 250 FREE SPINS",
+    url: "https://any-site1.com/pjskyjLq",
     isMobile:true
   },
 
