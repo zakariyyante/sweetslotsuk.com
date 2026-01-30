@@ -53,6 +53,13 @@ const casinosRawData: CasinoRawData[] = [
   },
 
   {
+    name: "RollySpin",
+    logo: "/RollySpin.svg",
+    bonus: "200% up to 1,000£ + 50 FREE SPINS",
+    url: "https://any-site1.com/znYjBPcw",
+    isMobile: true
+  },
+  {
     name: "LuckyWave",
     logo: "/luckywave.svg",
     bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
