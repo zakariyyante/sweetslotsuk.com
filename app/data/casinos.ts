@@ -45,6 +45,13 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "LuckyWave",
+    logo: "/luckywave.svg",
+    bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
+    url: "https://any-site1.com/m5Cn7JWD",
+    isMobile: true
+  },
+  {
     name: "HarryCasino",
     logo: "/harry.svg",
     bonus: "£1000 BONUS + 100 Free Spins",
@@ -58,13 +65,6 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "100% up to £500 + 250 FREE SPINS",
     url: "https://any-site1.com/pjskyjLq",
     isMobile:true
-  },
-  {
-    name: "LuckyWave",
-    logo: "/luckywave.svg",
-    bonus: "100% UP TO 2,000 €/£ + 200 FREE SPINS",
-    url: "https://any-site1.com/m5Cn7JWD",
-    isMobile: true
   },
 
 
