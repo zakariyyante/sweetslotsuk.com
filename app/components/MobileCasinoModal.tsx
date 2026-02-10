@@ -56,8 +56,8 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
               <CasinoCard
                 isOnline={isOnline}
                 key={casino.id} 
-                casino={casino} 
-                badge={index === 0 ? 'gold' : index === 1 ? 'silver' : index === 2 ? 'bronze' : undefined}
+                casino={casino}
+                rank={index + 1}
               />
             ))}
           </div>

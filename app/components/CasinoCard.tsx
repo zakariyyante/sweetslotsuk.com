@@ -8,11 +8,12 @@ import { track } from '@vercel/analytics';
 
 interface CasinoCardProps {
   casino: Casino;
-  badge?: 'gold' | 'silver' | 'bronze' | 'fourth';
+  rank?: number;
+  // badge?: 'gold' | 'silver' | 'bronze' | 'fourth';
   isOnline?: boolean;
 }
 
-export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCardProps) {
+export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCardProps) {
   const handleCasinoClick = () => {
     if (casino.isMobile) {
       track('Casino Click', {
@@ -55,12 +56,6 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
     "Paysafecard",
     "Bank Transfer",];
 
-  const badgeClass = badge === 'gold' 
-    ? 'bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 text-black' 
-    : badge === 'silver' 
-    ? 'bg-gradient-to-r from-gray-300 via-slate-400 to-gray-500 text-black' 
-    : 'bg-gradient-to-r from-orange-600 via-amber-700 to-orange-800 text-white';
-
   return (
     <div
       className="relative bg-[#1a1625] rounded-2xl p-4 sm:p-5 shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer border border-teal-500/50"
@@ -69,15 +64,30 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
       onClick={handleCardClick}
       onKeyDown={handleCardKeyDown}
     >
-      {/* Badge - Top of Card */}
+      {/*
+      const badgeClass = badge === 'gold' 
+        ? 'bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 text-black' 
+        : badge === 'silver' 
+        ? 'bg-gradient-to-r from-gray-300 via-slate-400 to-gray-500 text-black' 
+        : 'bg-gradient-to-r from-orange-600 via-amber-700 to-orange-800 text-white';
+      */}
+
+      {/*
       {badge && (
         <span className={`absolute top-0 left-0 rounded-br-lg rounded-tl-2xl px-3 py-1.5 text-[11px] font-bold ${badgeClass}`}>
           {badge === 'gold' ? "Most Popular" : badge === 'silver' ? 'Big Bonuses' : badge === 'bronze' ? 'Fast Withdrawal' :  'Trusted / Licensed'}
         </span>
       )}
+      */}
+      {/* Rank - Top of Card */}
+      {typeof rank === 'number' && (
+        <span className="absolute top-0 left-0 rounded-br-lg rounded-tl-2xl px-3 py-1.5 text-sm sm:text-base font-extrabold text-white bg-red-700/90">
+          #{rank}
+        </span>
+      )}
 
       {/* Logo and Rating Row */}
-      <div className={`flex items-center justify-between mb-4 ${badge ? 'pt-6' : ''}`}>
+      <div className={`flex items-center justify-between mb-4 ${typeof rank === 'number' ? 'pt-6' : ''}`}>
         {/* Logo - Centered Left */}
         <div className="w-44 h-28 sm:w-52 sm:h-32 flex items-center justify-center [&>svg]:text-white [&>svg]:fill-white [&>svg]:w-full [&>svg]:h-full">
           {renderLogo()}
@@ -95,7 +105,7 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
 
       {/* Bonus Offer - Highlighted */}
       <div className="text-center mb-5">
-        <p className="rounded-xl border border-red-500/50 bg-red-900/10 px-3 py-2 text-base sm:text-lg font-extrabold uppercase leading-tight text-white shadow-sm">
+        <p className="rounded-xl border border-red-500/40 bg-red-900/10 px-3 py-2 text-base sm:text-lg font-extrabold uppercase leading-tight text-white shadow-sm">
           {casino.bonus}
         </p>
       </div>
