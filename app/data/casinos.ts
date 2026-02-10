@@ -34,11 +34,28 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 const casinosRawData: CasinoRawData[] = [
   {
+    name: "LuckyWave",
+    logo: "/luckywave.svg",
+    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+    votes: 1724,
+    isMobile: true
+  },
+
+  {
     name: "BetNinja",
     logo: "/BetNinja.png",
     bonus: "£1000 + 100 Free Spins",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
     votes: 4915,
+    isMobile: true
+  },
+  {
+    name: "Qbet",
+    logo: "/qbet.svg",
+    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
+    votes: 3986,
     isMobile: true
   },
   {
@@ -58,14 +75,6 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-    name: "LuckyWave",
-    logo: "/luckywave.svg",
-    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
-    votes: 1724,
-    isMobile: true
-  },
 
   {
     name: "SpinShark",
@@ -76,15 +85,6 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-
-  {
-    name: "Qbet",
-    logo: "/qbet.svg",
-    bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
-    votes: 3986,
-    isMobile: true
-  },
   {
     name: "HarryCasino",
     logo: "/harry.svg",
