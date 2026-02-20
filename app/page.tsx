@@ -32,12 +32,11 @@ export default async function Home({ searchParams }: PageProps) {
   console.log('Gclid:', gclid);
   const userAgent = headersList.get("user-agent") || "";
   const referer = headersList.get("referer") || "";
-  const hasGoogleReferrer = referer.includes('google');
+  const hasGoogleReferrer = referer.toLowerCase().includes('google');
 
   console.log('referer:', referer);
   console.log('userAgent:', userAgent);
   // const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
-  const isFromGoogle = referer.toLowerCase().includes("google");
   const hasGclid = !!gclid;
 
   let isUk = true;
