@@ -33,14 +33,6 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "30Bet",
-    logo: "/30bet.gif",
-    bonus: "Claim your £100 now + 50 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
-    votes: 3986,
-    isMobile: true
-  },
-  {
     name: "SpinShark",
     logo: "/spinshark.svg",
     bonus: "£900 BONUS + 150 Free Spins",
@@ -48,16 +40,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4143,
     isMobile: true
   },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   // bonus: "350% up to £680 + 200 FREE SPINS",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    // bonus: "350% up to £680 + 200 FREE SPINS",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
   {
     name: "BetNinja",
     logo: "/BetNinja.png",
@@ -66,6 +57,16 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
+  {
+    name: "30Bet",
+    logo: "/30bet.gif",
+    bonus: "Claim your £100 now + 50 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+    votes: 3986,
+    isMobile: true
+  },
+
+
   {
     name: "HarryCasino",
     logo: "/harry.svg",
