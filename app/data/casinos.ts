@@ -40,7 +40,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4143,
     isMobile: true
   },
-
+  {
+    name: "Basswin",
+    logo: "/basswin.svg",
+    bonus: "DEPOSIT TODAY - GET UP TO £3000 + 300 FS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=basswin",
+    votes: 3951,
+    isMobile:true
+  },
   {
     name: "BetNinja",
     logo: "/BetNinja.png",
@@ -61,13 +68,20 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "Lizaro",
     logo: "/lizaro.png",
-    // bonus: "350% up to £680 + 200 FREE SPINS",
     bonus: "200% up to £1000 + 250 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
     votes: 5872,
     isMobile: true
   },
 
+  // {
+  //   name: "Verywell",
+  //   logo: "/verywell.png",
+  //   bonus: "300 FREE SPINS FOR ALL NEW PLAYERS",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=verywell",
+  //   votes: 3951,
+  //   isMobile:true
+  // },
 
 
   // {
