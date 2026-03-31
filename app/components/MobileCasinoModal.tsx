@@ -38,7 +38,7 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
               {isOnline ? 'Best Casino Sites 2026' : 'New Casino Sites 2026'}
             </h1>
             <h2 className="text-left sm:text-xl font-extrabold gold-text mb-1">
-              {isOnline ? 'Discover leading casino and betting sites offering instant payouts and generous sign-up rewards.' : 'Browse the top-rated casinos across the UK'}
+              {isOnline ? 'Discover new casino sites offering instant withdrawals and generous sign-up rewards.' : 'Browse the top-rated casinos across the UK'}
             </h2>
           </div>
         </div>
