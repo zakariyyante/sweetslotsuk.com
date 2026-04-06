@@ -32,14 +32,14 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  // {
-  //   name: "Daytona",
-  //   logo: "/daytonaspin.svg",
-  //   bonus: "255% UP TO £4500 + 255 FREE SPINS",
-  //   url: "https://daytona.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "Daytona",
+    logo: "/daytonaspin.svg",
+    bonus: "255% UP TO £4500 + 255 FREE SPINS",
+    url: "https://daytona.trickerysokf.biz?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
+    votes: 5872,
+    isMobile: true
+  },
 
   // {
   //   name: "30Bet",
@@ -57,30 +57,30 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 1997,
   //   isMobile: true
   // },
-  // {
-  //   name: "OdinFortune",
-  //   logo: "/odinfortune.png",
-  //   bonus: "Up to €4,000 + 700 FS",
-  //   url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Sankra",
-  //   logo: "/sankra.svg",
-  //   bonus: "100% UP TO £600 + 200 FREE SPINS",
-  //   url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
-  // {
-  //   name: "Lizaro",
-  //   logo: "/lizaro.png",
-  //   bonus: "200% up to £1000 + 250 FREE SPINS",
-  //   url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "OdinFortune",
+    logo: "/odinfortune.png",
+    bonus: "Up to €4,000 + 700 FS",
+    url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "Sankra",
+    logo: "/sankra.svg",
+    bonus: "100% UP TO £600 + 200 FREE SPINS",
+    url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
 
 
 
