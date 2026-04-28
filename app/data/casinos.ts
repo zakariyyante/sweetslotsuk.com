@@ -33,6 +33,22 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
   {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% UP TO €2000 + 150 FREE SPINS",
+    url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "Spinboss",
+    logo: "/spinboss.webp",
+    bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
+    url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
+    votes: 5872,
+    isMobile: true
+  },
+  {
     name: "DaytonaSpin",
     logo: "/daytonaspin.svg",
     bonus: "255% UP TO £4500 + 255 FREE SPINS",
@@ -40,23 +56,9 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-      name: "Westace",
-      logo: "/westace.webp",
-      bonus: "300% UP TO €2000 + 150 FREE SPINS",
-      url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
-      votes: 5872,
-      isMobile: true
-    },
   
-    {
-      name: "Spinboss",
-      logo: "/spinboss.webp",
-      bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
-      url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
-      votes: 5872,
-      isMobile: true
-    },
+  
+    
   // {
   //   name: "Lolajack",
   //   logo: "/lolajack.webp",
@@ -66,12 +68,6 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
   
-  // //
-  // 
-  
-  // //
-  // // //
-  // // //
   // {
   //   name: "Lizaro",
   //   logo: "/lizaro.png",
@@ -81,14 +77,14 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-  // {
-  //   name: "X3Bet",
-  //   logo: "/x3bet.svg",
-  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
-  //   url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "X3Bet",
+    logo: "/x3bet.svg",
+    bonus: "100% UP TO €600 + 200 FREE SPINS",
+    url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
+    votes: 5872,
+    isMobile: true
+  },
 
 
 
@@ -110,14 +106,14 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 1997,
   //   isMobile: true
   // },
-  // {
-  //   name: "OdinFortune",
-  //   logo: "/odinfortune.png",
-  //   bonus: "Up to €4,000 + 700 FS",
-  //   url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "OdinFortune",
+    logo: "/odinfortune.png",
+    bonus: "Up to €4,000 + 700 FS",
+    url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
+    votes: 5872,
+    isMobile: true
+  },
   // {
   //   name: "Sankra",
   //   logo: "/sankra.svg",
