@@ -42,23 +42,23 @@ const casinosRawData: CasinoRawData[] = [
   },
   
   
-  // {
-  //   name: "Westace",
-  //   logo: "/westace.webp",
-  //   bonus: "300% UP TO €2000 + 150 FREE SPINS",
-  //   url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% UP TO €2000 + 150 FREE SPINS",
+    url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+    votes: 5872,
+    isMobile: true
+  },
   
-  // {
-  //   name: "DaytonaSpin",
-  //   logo: "/daytonaspin.svg",
-  //   bonus: "255% UP TO £4500 + 255 FREE SPINS",
-  //   url: "https://daytona.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "DaytonaSpin",
+    logo: "/daytonaspin.svg",
+    bonus: "255% UP TO £4500 + 255 FREE SPINS",
+    url: "https://daytona.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
+    votes: 5872,
+    isMobile: true
+  },
   
   
   
