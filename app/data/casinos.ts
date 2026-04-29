@@ -118,14 +118,14 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
   
-  // {
-  //   name: "Sankra",
-  //   logo: "/sankra.svg",
-  //   bonus: "100% UP TO £600 + 200 FREE SPINS",
-  //   url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
-  //   votes: 5872,
-  //   isMobile: true
-  // },
+  {
+    name: "Sankra",
+    logo: "/sankra.svg",
+    bonus: "100% UP TO £600 + 200 FREE SPINS",
+    url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
+    votes: 5872,
+    isMobile: true
+  },
 
 
 
