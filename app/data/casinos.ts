@@ -87,14 +87,14 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-  {
-    name: "X3Bet",
-    logo: "/x3bet.svg",
-    bonus: "100% UP TO €600 + 200 FREE SPINS",
-    url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "X3Bet",
+  //   logo: "/x3bet.svg",
+  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
+  //   url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
 
 
