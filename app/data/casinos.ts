@@ -45,7 +45,7 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "Westace",
     logo: "/westace.webp",
-    bonus: "300% UP TO €2000 + 150 FREE SPINS",
+    bonus: "400% UP TO €15000 + 400 FREE SPINS",
     url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
     votes: 5872,
     isMobile: true
@@ -123,7 +123,7 @@ const casinosRawData: CasinoRawData[] = [
   {
     name: "OdinFortune",
     logo: "/odinfortune.png",
-    bonus: "Up to €4,000 + 700 FS",
+    bonus: "Up to €4,000 + 700 FREE SPINS",
     url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
     votes: 5872,
     isMobile: true
