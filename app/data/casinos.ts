@@ -33,14 +33,6 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
   {
-    name: "OdinFortune",
-    logo: "/odinfortune.png",
-    bonus: "Up to €4,000 + 700 FS",
-    url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
-    votes: 5872,
-    isMobile: true
-  },
-  {
     name: "Spinboss",
     logo: "/spinboss.webp",
     bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
@@ -48,6 +40,8 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
+  
+  
   {
     name: "Westace",
     logo: "/westace.webp",
@@ -126,7 +120,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5872,
     isMobile: true
   },
-
+  {
+    name: "OdinFortune",
+    logo: "/odinfortune.png",
+    bonus: "Up to €4,000 + 700 FS",
+    url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
+    votes: 5872,
+    isMobile: true
+  },
 
 
   // {
