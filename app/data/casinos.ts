@@ -32,24 +32,24 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  {
-    name: "Spinboss",
-    logo: "/spinboss.webp",
-    bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
-    url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "Spinboss",
+  //   logo: "/spinboss.webp",
+  //   bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
+  //   url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
   
   
-  {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "400% UP TO €15000 + 400 FREE SPINS",
-    url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "Westace",
+  //   logo: "/westace.webp",
+  //   bonus: "400% UP TO €15000 + 400 FREE SPINS",
+  //   url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
   
   // {
   //   name: "DaytonaSpin",
@@ -120,14 +120,14 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 5872,
   //   isMobile: true
   // },
-  {
-    name: "OdinFortune",
-    logo: "/odinfortune.png",
-    bonus: "Up to €4,000 + 700 FREE SPINS",
-    url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "OdinFortune",
+  //   logo: "/odinfortune.png",
+  //   bonus: "Up to €4,000 + 700 FREE SPINS",
+  //   url: "https://odinfortune.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=odinfortune",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
 
   // {
